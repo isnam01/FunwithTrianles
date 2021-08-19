@@ -1,0 +1,47 @@
+body {
+  background-image: url("https://t3.ftcdn.net/jpg/04/02/06/28/360_F_402062831_GPiMz0iH8pgRHovGU0RmMAgFQR3FF4kM.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0 auto;
+  color: rgb(128, 179, 255);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(18, 24, 77);
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+a {
+  color: rgb(128, 179, 255);
+  margin: 1rem;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid rgb(128, 179, 255);
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 3px;
+  color: rgb(128, 179, 255);
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.horizontal > * {
+  margin: 0.5rem;
+}
+
+input {
+  padding: 0.3rem;
+}
